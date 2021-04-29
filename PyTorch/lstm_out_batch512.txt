@@ -1,0 +1,105 @@
+True
+Model Parameters:
+Hidden Size                  : 50
+Batch Size                   : 512
+Max. input length            : 20
+Learning rate                : 0.001
+Number of Epochs             : 7
+--------------------------------------
+
+Reading Data.
+Number of Training Positive Samples   : 119722.0
+Number of Training Negative Samples   : 203656.0
+Number of Validation Positive Samples   : 29580.0
+Number of Validation Negative Samples   : 51260.0
+
+
+Number of training samples        : 323378
+Number of validation samples      : 80840
+Maximum sequence length           : 20
+
+
+Building Embedding Matrix
+torch.Size([85876, 300])
+Building model.
+Training Network.
+Beginning Model Training.
+
+epoch 1 ---------->
+0m 34s (- 3m 24s) (1 14%) 152.2465
+Validation Accuracy: 63.407966 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 36.919108
+
+
+epoch 2 ---------->
+1m 15s (- 3m 9s) (2 28%) 125.9473
+Validation Accuracy: 75.713756 Validation Precision: 70.456135 Validation Recall: 57.910751 Validation Loss: 26.172513
+
+
+epoch 3 ---------->
+1m 57s (- 2m 36s) (3 42%) 93.0810
+Validation Accuracy: 78.312716 Validation Precision: 71.879994 Validation Recall: 66.903313 Validation Loss: 23.884746
+
+
+epoch 4 ---------->
+2m 39s (- 1m 59s) (4 57%) 76.5539
+Validation Accuracy: 78.996784 Validation Precision: 72.369963 Validation Recall: 68.908046 Validation Loss: 23.440157
+
+
+epoch 5 ---------->
+3m 20s (- 1m 20s) (5 71%) 65.2142
+Validation Accuracy: 79.014102 Validation Precision: 71.809412 Validation Recall: 70.209601 Validation Loss: 23.487232
+
+
+epoch 6 ---------->
+4m 1s (- 0m 40s) (6 85%) 56.3777
+Validation Accuracy: 78.889164 Validation Precision: 71.092907 Validation Recall: 71.294794 Validation Loss: 23.701418
+
+
+epoch 7 ---------->
+4m 44s (- 0m 0s) (7 100%) 51.1639
+Validation Accuracy: 78.826076 Validation Precision: 70.788991 Validation Recall: 71.734280 Validation Loss: 23.912643
+
+
+> ['learn', 'algorithms', 'quickly']
+> ['learn', 'algorithm']
+= 1.0
+/home/shivam/anaconda3/lib/python3.7/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+< 0.0003118576423730701
+> ['shy', 'girls', 'sometimes', 'reject', 'guys', 'like']
+> ['shy', 'guys', 'ignore', 'girl', 'like']
+= 0.0
+< 3.169933916069567e-05
+> ['best', 'site', 'download', 'paid', 'apps']
+> ['sites', 'use', 'download', 'free', 'pc', 'games']
+= 0.0
+< 0.000100549659691751
+> ['black', 'holes', 'born']
+> ['black', 'holes', 'formed']
+= 1.0
+< 0.00031536645838059485
+> ['like', 'catcher', 'rye']
+> ['catcher', 'rye']
+= 0.0
+< 1.6965555914794095e-05
+> ['improve', 'power']
+> ['strengthen', 'power']
+= 1.0
+< 0.00038017609040252864
+> ['continents', 'named', 'asia', 'africa', 'names']
+> ['continents', 'named']
+= 1.0
+< 1.583406827876388e-07
+> ['study', 'gre', 'toefl']
+> ['standardized', 'tests', ':', 'much', 'time', 'required', 'prepare', 'gre']
+= 0.0
+< 6.489033239631681e-07
+> ['would', 'superpower']
+> ['could', 'one', 'superpower', 'would', 'choose']
+= 1.0
+< 0.0036653431598097086
+> ['activate', 'windows', '8', '1']
+> ['activate', 'windows', '8']
+= 0.0
+< 1.3108832490615896e-06
+

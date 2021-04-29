@@ -1,0 +1,104 @@
+True
+Model Parameters:
+Hidden Size                  : 50
+Batch Size                   : 64
+Max. input length            : 20
+Learning rate                : 0.001
+Number of Epochs             : 7
+--------------------------------------
+
+Reading Data.
+Number of Training Positive Samples   : 119336.0
+Number of Training Negative Samples   : 204034.0
+Number of Validation Positive Samples   : 29966.0
+Number of Validation Negative Samples   : 50882.0
+
+
+Number of training samples        : 323370
+Number of validation samples      : 80848
+Maximum sequence length           : 20
+
+
+Building Embedding Matrix
+torch.Size([85876, 300])
+Building model.
+Training Network.
+Beginning Model Training.
+
+epoch 1 ---------->
+2m 55s (- 17m 30s) (1 14%) 909.1678
+Validation Accuracy: 77.898031 Validation Precision: 73.885401 Validation Recall: 62.437429 Validation Loss: 192.578771
+
+
+epoch 2 ---------->
+6m 0s (- 15m 1s) (2 28%) 659.2981
+Validation Accuracy: 79.299426 Validation Precision: 73.609822 Validation Recall: 68.824668 Validation Loss: 182.452875
+
+
+epoch 3 ---------->
+9m 5s (- 12m 7s) (3 42%) 538.6177
+Validation Accuracy: 79.508460 Validation Precision: 72.684793 Validation Recall: 71.634519 Validation Loss: 181.913169
+
+
+epoch 4 ---------->
+12m 9s (- 9m 7s) (4 57%) 458.1121
+Validation Accuracy: 79.816446 Validation Precision: 73.188800 Validation Recall: 71.874791 Validation Loss: 181.310544
+
+
+epoch 5 ---------->
+15m 13s (- 6m 5s) (5 71%) 402.7327
+Validation Accuracy: 79.885711 Validation Precision: 73.530220 Validation Recall: 71.454315 Validation Loss: 182.261889
+
+
+epoch 6 ---------->
+18m 17s (- 3m 2s) (6 85%) 351.6037
+Validation Accuracy: 80.027954 Validation Precision: 74.132933 Validation Recall: 70.830274 Validation Loss: 182.685672
+
+
+epoch 7 ---------->
+21m 21s (- 0m 0s) (7 100%) 314.5812
+Validation Accuracy: 79.859737 Validation Precision: 73.660730 Validation Recall: 71.077221 Validation Loss: 184.965740
+
+
+> ['planning', 'give', 'gre', 'k', 'k', 'wagh', 'inst', 'engineering', 'education', 'research', '-', 'nashik', 'anybody', 'idea', 'test', 'center']
+> ['social', 'media', 'platform', 'use', 'post', 'regulatory', 'affairs', 'industry']
+= 0.0
+/home/shivam/anaconda3/lib/python3.7/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+< 1.3798122381558642e-05
+> ['get', 'call', 'details', 'perticular', 'mobile', 'number']
+> ['get', 'call', 'details', 'mobile', 'number']
+= 1.0
+< 5.192402568354737e-06
+> ['meaning', 'life']
+> ['meaning', 'life']
+= 1.0
+< 5.856860661879182e-05
+> ['really', 'cool', 'riddles']
+> ['hollywood', 'really', 'cool', 'thinks']
+= 0.0
+< 6.918559591895246e-08
+> ['better', 'xbox', 'one', 'playstation']
+> ['better', ':', 'xbox', 'playstation']
+= 1.0
+< 4.5290882155768486e-08
+> ['career', 'guy', 'starts', 'career', 'production', 'support', 'job', 'company']
+> ['future', 'guy', 'working', 'production', 'support', 'project', 'mnc']
+= 0.0
+< 9.228508446312844e-08
+> ['novels', 'read', 'preparing', 'cat', 'mba', 'entrance', 'exams']
+> ['study', 'btech', 'prepare', 'mba', 'entrance', 'exams']
+= 0.0
+< 4.268012344255112e-05
+> ['would', '13', '-', 'year', '-', 'old', 'daughter', 'told', 'wanted', 'baby', 'wanted', 'three', 'babies', 'time', 'turned', '16']
+> ['woman', 'got', 'impregnated', 'alien', 'gave', 'birth', 'baby', '8', 'months', 'later', 'would', 'keep']
+= 0.0
+< 1.6861113749655487e-07
+> ['easiest', 'optional', 'subject', 'ias', 'mains']
+> ['management', 'subject', 'optional', 'subject', 'ias', 'mains']
+= 0.0
+< 5.631138610961983e-11
+> ['strength', 'weaknesses']
+> ['strength', 'weaknesses']
+= 1.0
+

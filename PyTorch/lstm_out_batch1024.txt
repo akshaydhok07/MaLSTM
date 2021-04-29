@@ -1,0 +1,105 @@
+True
+Model Parameters:
+Hidden Size                  : 50
+Batch Size                   : 1024
+Max. input length            : 20
+Learning rate                : 0.001
+Number of Epochs             : 7
+--------------------------------------
+
+Reading Data.
+Number of Training Positive Samples   : 119509.0
+Number of Training Negative Samples   : 203868.0
+Number of Validation Positive Samples   : 29793.0
+Number of Validation Negative Samples   : 51048.0
+
+
+Number of training samples        : 323377
+Number of validation samples      : 80841
+Maximum sequence length           : 20
+
+
+Building Embedding Matrix
+torch.Size([85876, 300])
+Building model.
+Training Network.
+Beginning Model Training.
+
+epoch 1 ---------->
+0m 24s (- 2m 26s) (1 14%) 117.0462
+Validation Accuracy: 63.146176 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 29.112903
+
+
+epoch 2 ---------->
+0m 55s (- 2m 18s) (2 28%) 116.7855
+Validation Accuracy: 63.146176 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 29.112901
+
+
+epoch 3 ---------->
+1m 26s (- 1m 55s) (3 42%) 116.7855
+Validation Accuracy: 63.146176 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 29.112899
+
+
+epoch 4 ---------->
+1m 58s (- 1m 28s) (4 57%) 116.7854
+Validation Accuracy: 63.146176 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 29.112899
+
+
+epoch 5 ---------->
+2m 30s (- 1m 0s) (5 71%) 116.7854
+Validation Accuracy: 63.146176 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 29.112900
+
+
+epoch 6 ---------->
+3m 2s (- 0m 30s) (6 85%) 76.2867
+Validation Accuracy: 63.144939 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 18.457212
+
+
+epoch 7 ---------->
+3m 34s (- 0m 0s) (7 100%) 73.9471
+Validation Accuracy: 63.144939 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 18.387891
+
+
+> ['institute', 'provides', 'diploma', 'interior', 'designing']
+> ['go', 'perfect', 'portuguese']
+= 0.0
+/home/shivam/anaconda3/lib/python3.7/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+< 0.060819897800683975
+> ['favorite', 'animal']
+> ['favorite', 'animals']
+= 1.0
+< 0.28415772318840027
+> ['get', 'boyfriend', 'age', '13']
+> ['get', 'girlfriend', 'age', '21']
+= 0.0
+< 0.3957338035106659
+> ['would', 'next', 'infosys', 'batch', 'november']
+> ['infosys', 'mysore', 'training', 'start', 'next', 'batch', 'october']
+= 0.0
+< 0.03635482117533684
+> ['ncert', 'sufficient', 'jee', 'advanced', 'bitsat', 'inorganic', 'chemistry', 'books', 'study']
+> ['chapters', 'given', 'ncert', 'chemistry', 'book', 'bitsat', '15', 'syllabus']
+= 0.0
+< 0.06888099759817123
+> ['want', 'boyfriend']
+> ['want', 'boyfriend']
+= 1.0
+< 0.8317053318023682
+> ['tokyoxvanitys', 'real', 'name']
+> ['god', 'real', 'name']
+= 0.0
+< 0.5170135498046875
+> ['best', 'resources', 'available', 'learn', 'digital', 'marketing', 'social', 'media', 'online', 'strategies']
+> ['best', 'digital', 'marketing', 'course']
+= 0.0
+< 0.05938168615102768
+> ['repair', 'replace', 'auto', 'glass']
+> ['indian', 'government', 'medical', 'colleges', 'better', 'indian', 'private', 'medical', 'colleges']
+= 0.0
+< 0.028112830594182014
+> ['india', 'intolerant', 'country']
+> ['scope', 'intolerance', 'india', 'people', 'justify', 'india', 'intolerant', 'country']
+= 1.0
+< 0.027864256873726845
+

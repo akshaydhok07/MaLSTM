@@ -1,0 +1,105 @@
+True
+Model Parameters:
+Hidden Size                  : 50
+Batch Size                   : 128
+Max. input length            : 20
+Learning rate                : 0.001
+Number of Epochs             : 7
+--------------------------------------
+
+Reading Data.
+Number of Training Positive Samples   : 119482.0
+Number of Training Negative Samples   : 203894.0
+Number of Validation Positive Samples   : 29820.0
+Number of Validation Negative Samples   : 51022.0
+
+
+Number of training samples        : 323376
+Number of validation samples      : 80842
+Maximum sequence length           : 20
+
+
+Building Embedding Matrix
+torch.Size([85876, 300])
+Building model.
+Training Network.
+Beginning Model Training.
+
+epoch 1 ---------->
+1m 33s (- 9m 19s) (1 14%) 916.2671
+Validation Accuracy: 63.113233 Validation Precision: 0.000000 Validation Recall: 0.000000 Validation Loss: 146.705557
+
+
+epoch 2 ---------->
+3m 13s (- 8m 2s) (2 28%) 433.5371
+Validation Accuracy: 77.606937 Validation Precision: 74.645577 Validation Recall: 59.503689 Validation Loss: 97.292919
+
+
+epoch 3 ---------->
+4m 52s (- 6m 30s) (3 42%) 331.6954
+Validation Accuracy: 78.547042 Validation Precision: 73.240696 Validation Recall: 65.928907 Validation Loss: 94.643302
+
+
+epoch 4 ---------->
+6m 33s (- 4m 55s) (4 57%) 272.0599
+Validation Accuracy: 78.779595 Validation Precision: 72.946335 Validation Recall: 67.508384 Validation Loss: 94.637899
+
+
+epoch 5 ---------->
+8m 15s (- 3m 18s) (5 71%) 229.9729
+Validation Accuracy: 78.488904 Validation Precision: 71.796311 Validation Recall: 68.651911 Validation Loss: 95.940597
+
+
+epoch 6 ---------->
+9m 56s (- 1m 39s) (6 85%) 195.9722
+Validation Accuracy: 78.491378 Validation Precision: 71.778432 Validation Recall: 68.702213 Validation Loss: 96.716527
+
+
+epoch 7 ---------->
+11m 37s (- 0m 0s) (7 100%) 173.8992
+Validation Accuracy: 78.705376 Validation Precision: 71.957635 Validation Recall: 69.262240 Validation Loss: 97.399194
+
+
+> ['ashamed', 'attracted', 'men', 'ugly', 'woman', 'stop', 'attracted']
+> ['love', 'best', 'friend', 'gay;', 'straight']
+= 0.0
+/home/shivam/anaconda3/lib/python3.7/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+< 2.4443345409963513e-06
+> ['game', 'changing', 'movies', 'tv', 'series']
+> ['game', 'changing', 'tv', 'series', 'time']
+= 1.0
+< 7.369711063631712e-09
+> ['causes', 'clear', 'coat', 'peel', 'car']
+> ['fix', 'clear', 'coat', 'peeling', 'car']
+= 0.0
+< 3.232835110722476e-10
+> ['dell', 'inspiron', 'i7559', '-', '2512blk', 'good', 'laptop', 'gaming']
+> ['dell', 'inspiron', 'good', 'gaming']
+= 0.0
+< 0.011395172215998173
+> ['publish', 'articles', 'newspapers']
+> ['publish', 'article', 'magazine', 'newspaper']
+= 0.0
+< 3.3096339002725017e-09
+> ['make', 'tongue', 'longer']
+> ['long', 'tongue', 'make', 'longer']
+= 1.0
+< 3.6380606616148725e-07
+> ['keanu', 'reeves', 'offered', 'part', 'marvel', 'cinematic', 'universe']
+> ['marvel', 'cinematic', 'universe', 'end', 'still', 'around', '2030']
+= 0.0
+< 2.727504420235727e-12
+> ['people', 'go', 'theater']
+> ['people', 'go', 'theatre']
+= 1.0
+< 2.328780828975141e-05
+> ['invest', 'money', 'employer', 'allow', 'invest', 'stocks', 'directly']
+> ['promote', 'ebates', 'website']
+= 0.0
+< 3.542533291451405e-13
+> ['achieve', 'life']
+> ['achieve', 'life']
+= 0.0
+< 3.73989564650401e-07
+

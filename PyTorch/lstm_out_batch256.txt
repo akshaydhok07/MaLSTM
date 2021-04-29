@@ -1,0 +1,105 @@
+True
+Model Parameters:
+Hidden Size                  : 50
+Batch Size                   : 256
+Max. input length            : 20
+Learning rate                : 0.001
+Number of Epochs             : 7
+--------------------------------------
+
+Reading Data.
+Number of Training Positive Samples   : 119517.0
+Number of Training Negative Samples   : 203852.0
+Number of Validation Positive Samples   : 29785.0
+Number of Validation Negative Samples   : 51064.0
+
+
+Number of training samples        : 323369
+Number of validation samples      : 80849
+Maximum sequence length           : 20
+
+
+Building Embedding Matrix
+torch.Size([85876, 300])
+Building model.
+Training Network.
+Beginning Model Training.
+
+epoch 1 ---------->
+0m 53s (- 5m 22s) (1 14%) 259.6712
+Validation Accuracy: 75.976203 Validation Precision: 71.582104 Validation Recall: 57.693470 Validation Loss: 52.303217
+
+
+epoch 2 ---------->
+1m 54s (- 4m 46s) (2 28%) 187.3358
+Validation Accuracy: 78.219891 Validation Precision: 71.932416 Validation Recall: 67.037099 Validation Loss: 48.073847
+
+
+epoch 3 ---------->
+2m 56s (- 3m 55s) (3 42%) 153.3069
+Validation Accuracy: 79.007780 Validation Precision: 72.621023 Validation Recall: 69.051536 Validation Loss: 47.109853
+
+
+epoch 4 ---------->
+3m 57s (- 2m 58s) (4 57%) 129.0201
+Validation Accuracy: 79.036228 Validation Precision: 72.440559 Validation Recall: 69.558503 Validation Loss: 47.283014
+
+
+epoch 5 ---------->
+4m 59s (- 1m 59s) (5 71%) 111.6310
+Validation Accuracy: 79.114151 Validation Precision: 72.595733 Validation Recall: 69.568575 Validation Loss: 47.975343
+
+
+epoch 6 ---------->
+6m 1s (- 1m 0s) (6 85%) 97.5029
+Validation Accuracy: 79.110440 Validation Precision: 72.316052 Validation Recall: 70.152761 Validation Loss: 48.162102
+
+
+epoch 7 ---------->
+7m 3s (- 0m 0s) (7 100%) 87.6642
+Validation Accuracy: 79.148784 Validation Precision: 72.367374 Validation Recall: 70.209837 Validation Loss: 48.732147
+
+
+> ['infinity', 'exist', 'nature']
+> ['infinities', 'exist', 'nature']
+= 1.0
+/home/shivam/anaconda3/lib/python3.7/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+< 2.35269840231922e-06
+> ['hindu', 'women', 'allowed', 'enter', 'prayer', 'areas', 'like', 'temples', 'menstruating']
+> ['women', 'allowed', 'temples', 'well', 'kitchen', 'sure', 'menstruation']
+= 0.0
+< 3.415841121068297e-08
+> ['israel', 'vs', 'iran', ':', 'would', 'win']
+> ['israel', 'iran', 'went', 'war', 'would', 'win']
+= 1.0
+< 0.00175005872733891
+> ['different', 'types', 'petrol', 'times', 'petrol', 'pump', 'different', 'kind', 'petrols', 'available', 'best']
+> ['work', 'manager', 'petrol', 'pump']
+= 0.0
+< 5.665943376698124e-07
+> ['full', 'undergraduate', 'scholarships', 'available', 'international', 'students', 'us', 'uk', 'canada']
+> ['external', 'scholarships', 'available', 'international', 'students', 'study', 'us', 'canada']
+= 0.0
+< 6.936546697033918e-07
+> ['tv', 'series', 'changed', 'life']
+> ['tv', 'series', 'changed', 'life', 'changes']
+= 1.0
+< 2.809529405567446e-06
+> ['good', 'product', 'designer']
+> ['one', 'become', 'better', 'product', 'designer']
+= 1.0
+< 5.541143309528707e-06
+> ['treat', 'mouse', 'bite']
+> ['treat', 'mouse', 'bite']
+= 1.0
+< 0.0006913498509675264
+> ['study', 'get', 'difficult', 'class']
+> ['students', 'study', 'well', 'get', 'alienated', 'class']
+= 0.0
+< 7.392927727778442e-07
+> ['clearly', 'explain', 'excise', 'duty', 'vat', 'educational', '-', 'cess', 'india', 'using', 'examples']
+> ['purpose', 'levying', 'additional', 'excise', 'duty', 'goods']
+= 0.0
+< 3.953913818577348e-08
+

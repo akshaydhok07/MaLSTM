@@ -1,0 +1,105 @@
+True
+Model Parameters:
+Hidden Size                  : 50
+Batch Size                   : 32
+Max. input length            : 20
+Learning rate                : 0.001
+Number of Epochs             : 7
+--------------------------------------
+
+Reading Data.
+Number of Training Positive Samples   : 119330.0
+Number of Training Negative Samples   : 204048.0
+Number of Validation Positive Samples   : 29972.0
+Number of Validation Negative Samples   : 50868.0
+
+
+Number of training samples        : 323378
+Number of validation samples      : 80840
+Maximum sequence length           : 20
+
+
+Building Embedding Matrix
+torch.Size([85876, 300])
+Building model.
+Training Network.
+Beginning Model Training.
+
+epoch 1 ---------->
+5m 38s (- 33m 51s) (1 14%) 1993.6180
+Validation Accuracy: 77.420831 Validation Precision: 72.249858 Validation Recall: 63.482584 Validation Loss: 395.013363
+
+
+epoch 2 ---------->
+11m 30s (- 28m 46s) (2 28%) 1369.4084
+Validation Accuracy: 78.281791 Validation Precision: 71.589052 Validation Recall: 68.677432 Validation Loss: 385.941991
+
+
+epoch 3 ---------->
+17m 21s (- 23m 8s) (3 42%) 1109.3279
+Validation Accuracy: 77.761009 Validation Precision: 70.608247 Validation Recall: 68.553984 Validation Loss: 395.281998
+
+
+epoch 4 ---------->
+23m 10s (- 17m 22s) (4 57%) 929.1029
+Validation Accuracy: 77.836467 Validation Precision: 71.197468 Validation Recall: 67.546377 Validation Loss: 400.623349
+
+
+epoch 5 ---------->
+28m 59s (- 11m 35s) (5 71%) 809.4002
+Validation Accuracy: 77.547006 Validation Precision: 70.407071 Validation Recall: 68.036834 Validation Loss: 409.827939
+
+
+epoch 6 ---------->
+34m 47s (- 5m 47s) (6 85%) 707.9218
+Validation Accuracy: 77.375062 Validation Precision: 69.755801 Validation Recall: 68.810890 Validation Loss: 411.831683
+
+
+epoch 7 ---------->
+40m 36s (- 0m 0s) (7 100%) 636.9780
+Validation Accuracy: 77.133845 Validation Precision: 69.231542 Validation Recall: 68.984385 Validation Loss: 419.457455
+
+
+> ['cash', 'magical']
+> ['money', 'magical']
+= 1.0
+/home/shivam/anaconda3/lib/python3.7/site-packages/torch/nn/modules/loss.py:446: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+< 3.20707738143966e-10
+> ['laptop', 'specifications', 'architecture', 'students']
+> ['laptop', 'suitable', 'architecture', 'student']
+= 0.0
+< 1.5193181157613367e-09
+> ['take', 'mahindra', 'rodeo', 'transmission', 'make', 'go', '-', 'kart', 'transmission']
+> ['transmission', 'better', 'go', 'kart', '125cc', '3hp', 'engine', 'cvt', 'manual']
+= 0.0
+< 1.2196496525403167e-13
+> ['lame', 'things', 'indians', 'appear', 'cool']
+> ['indian', 'comedy', 'lame']
+= 0.0
+< 7.25486302144418e-08
+> ['means', 'gmail', 'password', 'recovery']
+> ['reset', 'gmail', 'password', 'remember', 'recovery', 'information']
+= 0.0
+< 8.452965971628146e-08
+> ['best', 'software', 'wacom', 'drawing', 'tablet']
+> ['choose', 'best', 'wacom', 'tablet', 'specific', 'needs']
+= 0.0
+< 9.494227697359747e-07
+> ['worry', '26', 'single']
+> ['worried', '27', 'still', 'single']
+= 0.0
+< 1.8763690604828298e-05
+> ['good', 'easy', 'programming', 'language', 'learn']
+> ['best', 'computer', 'programming', 'language', 'learn', 'first']
+= 1.0
+< 0.004892650526016951
+> ['frasier', 'prove', 'successful', 'cheers']
+> ['narrative', 'connections', 'cheers', 'frasier']
+= 0.0
+< 1.271346049269706e-11
+> ['people', 'think', 'relative', 'police', 'officer', 'prosecuted', 'commit', 'crimes']
+> ['people', 'psycho', 'feel', 'empathy', 'committing', 'gruesome', 'crime']
+= 0.0
+< 8.712920385178791e-10
+
