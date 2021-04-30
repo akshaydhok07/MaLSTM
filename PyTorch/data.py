@@ -1,7 +1,8 @@
 from re import sub
 
 import torch
-
+import nltk
+nltk.download('stopwords')
 import csv
 import itertools
 import random
